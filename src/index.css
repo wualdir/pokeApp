@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+html{
+
+    font-family: "DM Sans", sans-serif;
+}
+
+  body{
+   margin: 0;
+  }
+  h1,h2,h3,h4,ul,p,hr{
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+  img{
+   width: 100%;
+   display: block;
+  }
+  ul{
+   list-style: none;
+   padding-left: 0;
+  }
+  input,button{
+   font-family: inherit;
+    border: none; 
+  }
+  input{
+   outline: none;
+  }
+  button{
+   cursor: pointer;
+  }
+ 

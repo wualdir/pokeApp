@@ -1,0 +1,120 @@
+.HomePage{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  margin: 0;   
+}
+.HomePage__img{
+    width: 35%;
+    margin-top: 5em;  
+}
+.HomePage__content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 4em;
+}
+.footers{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8em;
+}
+
+.HomePage__title{
+    color: #FE1936;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+.HomePage__Parrafo{
+    color: #302F2F;
+    font-size: 1.3em;
+    margin-bottom: 1em;  
+}
+.HomePage__form{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+    width: 60%; 
+}
+.HomePage__Input{
+    padding: 0.5em;  
+    box-shadow: 0px 3px 6px 0px #00000026;
+    color: #616060;
+    width:27em;
+   font-size: 1.2em;
+}
+.HomePage__button{
+    padding: 0.5em;
+    box-shadow: 0px 3px 6px 0px #00000026;   
+    color: #FFFFFF;
+    background-color: #D93F3F;
+    width: 7.5em;
+    font-size: 1.2em;
+}
+.footers__bgblack{
+
+    background-color: black; 
+    height: 2em;
+    
+} 
+
+
+
+.footers__bgred{
+
+    width: 100%; 
+    
+    background: #DD1A1A;    
+     height: 3em;
+
+}
+ .footers__icono1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1em;
+    left: 50%;
+    width: 3.5em;
+    aspect-ratio: 1;
+    background-color:white;
+    border-radius: 80%; 
+    border: 0.2em solid black;
+   
+} 
+
+.footers__icon2{
+    position: absolute;
+    width: 2em;
+    aspect-ratio: 1;
+    background-color: rgb(32, 31, 31);
+    border-radius: 50%; 
+    border: solid black;
+    
+}
+.errorName{
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-right: 0.3em;
+}
+
+@media (width <400px) {
+    .HomePage__img{
+       
+       width: 60%;
+       
+    }
+
+}
